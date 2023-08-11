@@ -1,4 +1,5 @@
-if (process.env.DATABASE_URL) require("dotenv").config();
+// if (process.env.DATABASE_URL) require("dotenv").config();
+require("dotenv").config()
 
 const express = require("express");
 const app = express();
